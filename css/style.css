@@ -1,0 +1,667 @@
+@font-face {
+    font-family: NiveauGroteskBlack;
+    src: url('../fonts/NiveauGroteskBlack.ttf');
+}
+@font-face {
+    font-family: NiveauGroteskBold;
+    src: url('../fonts/NiveauGroteskBold.ttf');
+}
+@font-face {
+    font-family: NiveauGroteskExtraLight;
+    src: url('../fonts/NiveauGroteskExtraLight.ttf');
+}
+@font-face {
+    font-family:NiveauGroteskLight;                 
+    src: url('../fonts/NiveauGroteskLight.ttf');
+}
+@font-face {
+    font-family: NiveauGroteskMedium;
+    src: url('../fonts/NiveauGroteskMedium.ttf');
+}
+@font-face {
+    font-family: NiveauGroteskRegular;
+    src: url('../fonts/NiveauGroteskRegular.ttf');
+}
+.back {
+    background-image: url(../images/11.png);
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 750px;
+}
+.number{
+    background-image: url(../images/22.png);
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+}
+.blue{
+    background-image: url(../images/blue.png);
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 320px;
+    margin-bottom: 60px;
+}
+.gr {
+    background-image: url(../images/Group.png);
+    background-size: cover;
+    background-position: center;
+}
+.footer{
+    background-image: url(../images/footer.png);
+    background-size: cover;
+    background-position: top;
+}
+.col{
+    background-color: #f5f5f5;
+}
+.Software{
+    background-image: url(../images/Software.png);
+    background-size: cover;
+    background-position: top;
+    background-color: #f5f5f5;
+    height: 190px;
+}
+.Website{
+    background-image: url(../images/Website.png);
+    background-size: cover;
+    background-position: top;
+    background-color: #f5f5f5;
+    height: 190px;
+    margin-top: 20px;
+}
+.Network{
+    background-image: url(../images/Network.png);
+    background-size: cover;
+    background-position: top;
+    background-color: #f5f5f5;
+    height: 190px;
+}
+.Offshore{
+    background-image: url(../images/Offshore.png);
+    background-size: cover;
+    background-position: top;
+    background-color: #f5f5f5;
+    height: 190px;
+    margin-top: 20px;
+}
+.Consulting{
+    background-image: url(../images/Consulting.png);
+    background-size: cover;
+    background-position: top;
+    background-color: #f5f5f5;
+    height: 190px;
+}
+.Mobile{
+    background-image: url(../images/Mobile.png);
+    background-size: cover;
+    background-position: top;
+    background-color: #f5f5f5;
+    height: 190px;
+    margin-top: 20px;
+}
+.mov{
+    background-size: auto;
+    background-position: center;
+    background-color: #cfdbff;
+    height: 250px;
+    opacity: 90%;
+}
+.var{
+    background-color: #1a2988 ;
+    opacity: 70%;
+    margin-top: 100px;
+    height: 200px;
+}
+.blur{
+    filter: blur(8px);
+}
+p.solid {border-style: solid;}
+.fz-60{
+    font-size: 60px;
+    font-family: NiveauGroteskBold ;
+}
+.fz-20{
+    font-size: 35px;
+}
+.fz-25{
+    font-size: 45px;
+}
+.fz-41{
+    font-size: 41px;
+}
+.fz-40{
+    font-size: 40px;
+}
+.fz-50{
+    font-size: 50px;
+}
+.mtc-60{
+    margin-top: 50px;
+}
+.logo{
+    width: 125px;
+}
+.mt-0 {
+    margin-top: 0px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mt--40 {
+    margin-top: -40px;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.mt-80 {
+    margin-top: 80px;
+}
+.mt-100 {
+    margin-top: 100px;
+}
+.mt-140 {
+    margin-top: 140px;
+}
+.mt-160 {
+    margin-top: 160px;
+}
+.mt-175 {
+    margin-top: 175px;
+}
+.nav-link {
+    color: #fff;
+}
+.nav {
+    font-size:17px;
+    color:white;
+}
+.f12{
+    font-size: 12px;
+}
+.f15{
+    font-size: 15px;
+}
+.white{
+    color:white
+}
+.bwhite{
+    background-color: white;
+}
+.bred{
+    background-color:#e81e22;
+}
+.bblue{
+    background-color:#1a2988;
+}
+.cblue{
+    color: #1a2988 ;
+    font-family: NiveauGroteskBold;
+}
+.bgreen{
+    background-color:#58b848;
+}
+.fz_20{
+    font-size: 30px;
+}
+.person{
+    width: 100%;
+    height: 438px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+.mb-100 {
+    margin-bottom: 100px;
+}
+.lap{
+    width: 545px;
+    margin-top: -54px;
+    float:left;
+}
+.red{
+    color: #e81e22;
+}
+.reading{
+    padding:  10px 10px 10px 20px;
+    width: 107px;
+}
+.reading2 {
+    padding: 10px 10px 0px 20px;
+    font-size: 14px;
+}
+.fz-10{
+    font-size: 11px;
+}
+.hig {
+    height: 95px;
+    width: 100%;
+}
+.header-flag {
+    width: 40px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 26px;
+}
+#header .profile .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+#header .profile .social-links a:hover {
+    background: #149ddd;
+    color: #fff;
+    text-decoration: none;
+}
+.form-group .form.index {
+    width: 250px
+}
+.form{
+    border-left: 1px solid lightgray;
+    padding-left: 40px;
+}
+.submit{
+    Background-color: #1a2988;
+    color: white;
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 80%;
+    height: auto;
+    margin-bottom: 25px;
+    border: 0px;
+}
+.social-icon {
+    padding: 7px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 100px;
+    margin-right: 0px;
+    border-radius: 70%;
+    Background-color: #1a2988;
+    color: white;
+    margin-bottom: 20px;
+}
+footer .active  {
+    color: red;
+}
+.imgFot{
+    border-radius: 10px;
+    width: 200%;
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 80%;
+}
+.readMore {
+    float: right;
+    margin-right: 9px;
+    color: #404040;
+    margin-top: -7px;
+    font-size: 12px;
+}
+.NiveauGroteskBold{
+    font-family: NiveauGroteskBold;
+}
+.shadow{
+    box-shadow: 5px 10px lightgray;
+}
+.Bborder {
+    border-radius: 5px;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 0px 15px;
+}
+.co{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.our{
+    width: 100%;
+    margin-top: 50px;
+}
+.toc{
+    width: 100%;
+    margin-top: 25px;
+}
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+.net {
+    font-size: 20px;
+    color: #1a2988;
+    font-family: 'NiveauGroteskBold';
+    margin-top: 5px;
+}
+.content {
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 201px;
+}
+.content2 {
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 209px;
+}
+.pad{
+    padding: 0 5px;
+}
+.pad2{
+    padding: 0 5px;
+    padding-top: 28px;
+}
+.clients{
+    margin-top: -55px;
+    margin-left: 47px;
+    font-size: 55px;
+}
+.ml-10{
+    margin-left: 10px
+}
+.w-105{
+    width: 105px;
+}
+.mmt-60{
+    margin-top: 60px;
+}
+.NiveauGroteskLight{
+    font-family:NiveauGroteskLight;
+}
+.darkblueBack{
+    background-color: #131D59; 
+    background-image: linear-gradient(to right, #0D1546, #131D59, #0D1546);
+}
+.NiveauGroteskLight{
+    font-family: NiveauGroteskLight;
+}
+.carousel-indicators .active{
+    background-color: greenyellow;
+    width: 14px;
+    height: 14px;
+}
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+}
+.carousel-caption {
+    right: -10%;
+}
+.slick-dots .active {
+    background-color: white;
+}
+.slick-dots {
+    margin-top: -36px;
+}
+.slick-dots li button:before{
+    background-color: red;
+}
+.ci{
+    margin-bottom: -25px;
+}
+.fz-11{
+    font-size: 11px;
+}
+.width60{
+    width: 60%;
+}
+.width80{
+    width: 80%
+}
+.ourServices{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-15%, -65%);
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.backNews{
+    background-image: url(../images/news.png);
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 650px;
+}
+.backAboutUS{
+    background-image: url(../images/aboutus.png);
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 650px;
+}
+.backCotactUS{
+    background-image: url(../images/cotactus.png);
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 650px;
+}
+
+.co1{
+    margin: 0;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    text-align: center;
+    color: white;
+}
+.tego{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px lightgrey;
+}
+.pt-70{
+   padding-top: 70px;
+}
+.pt-130{
+   padding-top: 130px;
+}
+.pt-150{
+   padding-top: 150px;
+}
+.pt-200{
+   padding-top: 200px;
+}
+.pt-40{
+   padding-top: 40px;
+}
+.pb-150{
+   margin-bottom: 150px;
+}
+.mt-150{
+   margin-top: 150px;
+}
+.mt-120{
+   margin-top: 120px;
+}
+.ReadMore{
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px lightgrey;
+    background-color: white;
+    color: #1a2988;
+    font-family: 'NiveauGroteskBold';
+}
+.Stego{
+    font-family: 'NiveauGroteskBold';
+    color: #1a2988;
+}
+.co2{
+     margin: 0 20px;
+    position: inherit;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    color: white;
+}
+.width{
+    width:100%;
+}
+.center{
+    text-align: center;
+}
+.vision{
+    margin-top: -30px;
+    margin-left: 90px;
+    font-size: 70px;
+    font-family: 'NiveauGroteskBold';
+    color: #1a2988;
+}
+.mission{
+    margin-top: -60px;
+    margin-left: 82px;
+    font-size: 70px;
+    font-family: 'NiveauGroteskBold';
+    color: #1a2988;
+}
+.our2{
+    margin-top: -30px;
+    margin-left: 30px;
+    font-size: 70px;
+    font-family: 'NiveauGroteskBold';
+    color: #1a2988;
+}
+.textAbout{
+    margin: 0 51px;
+    position: inherit;
+    top: 0;
+    left: 40%;
+    transform: translate(-50%, 0);
+    text-align: left;
+    color: #1a2988;
+    font-family: 'NiveauGroteskLight';
+}
+.csubmit{
+    Background-color: #1a2988;
+    color: white;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.ccc {
+  max-width: 800px;
+  margin: auto;
+}
+.form-contact{
+    padding: 20px;
+}
+.form-contact .col{
+    background-color: white;
+}
+label{
+    float: left;
+    color: #1a2988;
+    font-family: 'NiveauGroteskbold';
+}
+.contactus{
+    color: #1a2988;
+    font-family: 'NiveauGroteskbold';
+}
+.co3 {
+    margin: 0;
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    color: white;
+}
+.contentSer {
+    text-align: left;
+    background-color: #f1f1f1;
+    height: 150px;
+    width: 205px;
+}
+.netSer {
+    font-size: 18px;
+    color: #1a2988;
+    font-family: 'NiveauGroteskBold';
+    margin-top: 5px;
+    padding: 8px;
+}
+.graySer{
+    background-color: gray;
+    opacity: 70%;
+    margin-top: 100px;
+    color: white;
+    font-size: 30px;
+    padding: 30px
+}
+a:link{
+  text-decoration: none;
+}
+.nav-tabs .nav-link{
+    padding: 0;
+}
+.bolder{
+    font-weight: bolder;
+}
+.iconSerSD{
+    background: transparent url(images/computer.png) no-repeat;
+    padding-left: 80px;
+    width: fit-content;
+    margin: auto;
+}
+.iconSerCND{
+    background: transparent url(images/communication.png) no-repeat;
+    padding-left: 80px;
+    width: fit-content;
+    margin: auto;
+}
+.iconSerICT{
+    background: transparent url(images/teacher.png) no-repeat;
+    padding-left: 80px;
+    width: fit-content;
+    margin: auto;
+}
+.iconSerWD{
+    background: transparent url(images/surface1.png) no-repeat;
+    padding-left: 80px;
+    width: fit-content;
+    margin: auto;
+}
+.iconSerOD{
+    background: transparent url(images/offering.png) no-repeat;
+    padding-left: 80px;
+    width: fit-content;
+    margin: auto;
+}
+.iconSerMAD{
+    background: transparent url(images/application.png) no-repeat;
+    padding-left: 80px;
+    width: fit-content;
+    margin: auto;
+}
+    
